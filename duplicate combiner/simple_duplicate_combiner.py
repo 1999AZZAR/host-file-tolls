@@ -19,10 +19,10 @@ def combine_and_remove_duplicates(input_files, output_file):
         print(f"An error occurred: {e}")
 
 # Specify the paths to your input text files
-input_files = ["/home/azzar/Downloads/host files/yoyo.txt", "/home/azzar/Downloads/host files/spotofy.txt", "/home/azzar/Downloads/host files/hosts.txt", "/home/azzar/Downloads/host files/adaway.txt", "/home/azzar/Downloads/host files/GoodbyeAds.txt"]
+input_files = ["/path/to/file1.txt", "/path/to/file2.txt", "/path/to/file3.txt"]
 
 # Specify the path to your output text file
-output_file = "/home/azzar/Downloads/host files/new_host.txt"
+output_file = "/path/to/output.txt"
 
 # Call the function to combine and remove duplicates
 combine_and_remove_duplicates(input_files, output_file)
